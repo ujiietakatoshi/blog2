@@ -66,6 +66,7 @@ gem 'compass-rails', '3.1.0'
 gem 'sprockets', '3.7.2'
 gem 'kaminari'
 gem 'devise'
+gem 'payjp'
 group :development, :test do
   gem 'rails-erd', github: 'paulwittmann/rails-erd', branch: 'mavericks'
 end

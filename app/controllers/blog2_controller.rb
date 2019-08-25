@@ -1,6 +1,6 @@
 class Blog2Controller < ApplicationController
   before_action :move_to_index, except: :index
-
+  
   def index
     @blog2 = Blog.order("created_at DESC").page(params[:page]).per(1)
   end
